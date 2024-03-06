@@ -1,0 +1,107 @@
+
+/* Style pour la barre de changement de page */
+.page-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Changement en rouge des liens quand la souris passe dessus */
+a {
+    color: #00f; /* Couleur initiale des liens */
+    transition: color 0.3s ease; /* Animation de transition */
+}
+
+a:hover {
+    color: #f00; /* Nouvelle couleur des liens au survol */
+    text-decoration: underline; /* Souligner le lien au survol */
+}
+
+/* Réinitialisation des styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Espacement entre les éléments de la liste */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Supprimer l'espacement du dernier élément */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+    border-radius: 5px; /* Ajouter des coins arrondis au survol */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Mode nuit */
+body.night-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+header.night-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul li a.night-mode {
+    color: #fff;
+}
+
+nav ul li a.night-mode:hover {
+    background-color: #666;
+}
+
+footer.night-mode {
+    background-color: #333;
+    color: #fff;
+}
